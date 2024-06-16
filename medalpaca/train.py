@@ -66,10 +66,10 @@ def proactive_loss(predictions, labels, needs_more_information):
 def main(
     model: str,
     val_set_size: Union[int, float] = 0.1,
-    prompt_template: str = "/u/ybkim95/proactive-llm/medAlpaca/medalpaca/prompt_templates/medalpaca.json",
+    prompt_template: str = "/data/healthy-ml/scratch/xoxu/projects/proactive-alpaca/medalpaca/prompt_templates/medalpaca.json",
     model_max_length: int = 256,
     train_on_inputs: bool = True,
-    data_path: str = "/u/ybkim95/proactive-llm/data/MDDial/augmented_medical_dialogues2.json",
+    data_path: str = "/data/healthy-ml/scratch/xoxu/projects/data/augmented_medical_dialogues2.json",
     train_in_8bit: bool = False,
     use_lora: bool = True,
     lora_r: int = 8,
