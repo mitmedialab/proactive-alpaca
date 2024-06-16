@@ -43,6 +43,6 @@ def load_and_augment_data(input_path: str, output_path: str):
         json.dump(augmented_data, f, indent=4)
 
 # Example usage
-input_path = '/u/ybkim95/proactive-llm/data/MDDial/train.json'
-output_path = '/u/ybkim95/proactive-llm/data/MDDial/augmented_medical_dialogues2.json'
+input_path = '/data/healthy-ml/scratch/xoxu/projects/data/train.json'
+output_path = '/data/healthy-ml/scratch/xoxu/projects/data/augmented_medical_dialogues2.json'
 load_and_augment_data(input_path, output_path)
