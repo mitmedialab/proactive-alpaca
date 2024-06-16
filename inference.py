@@ -66,7 +66,7 @@ def strip_special_chars(input_str):
         return ""
 
 def main(
-    checkpoint_path: str = "/u/ybkim95/proactive-llm/medAlpaca/lora-alpaca-13b", 
+    checkpoint_path: str = "/data/healthy-ml/scratch/xoxu/projects/proactive-alpaca/alpaca-13b", 
     base_model: str = "yahma/llama-13b-hf",
     peft: bool = True,
 ):
