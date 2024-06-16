@@ -25,7 +25,7 @@
 
 torchrun --nproc_per_node=4 --master_port=9876 medalpaca/train.py \
     --model 'yahma/llama-7b-hf' \
-    --data_path '/u/ybkim95/proactive-llm/data/MDDial/augmented_medical_dialogues2.json' \
+    --data_path '/data/healthy-ml/scratch/xoxu/projects/data/augmented_medical_dialogues2.json' \
     --output_dir './lora-alpaca-7b' \
     --train_in_8bit False \
     --use_lora True \
